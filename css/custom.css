@@ -1023,11 +1023,18 @@ padding: 0!important;
 	color: #015190;
 }
 .info-section strong {
-	color:#CE171E;
+	color: #17406f !important;
+	font-size: 18px;
 }
 .bl-color {
-	font-size: 16px;
+	font-size: 18px;
 	color: #5c9fd4!important;
+}
+.la-merathon .h4{
+	font-size: 34px !important;
+	text-align: center;
+	color: #CE171E;
+	margin-bottom: 15px !important;
 }
 #marathon-info .how-to-run {
 	margin-left: 26px;
@@ -1040,7 +1047,7 @@ padding: 0!important;
 	font-size: 16px;
 	border-left: 3px solid #CE171E;
 	padding: 0px 0px 0px 7px;
-	color: #5c9fd4;
+	color: #CE171E;
 }
 #marathon-info i {
 	font-size: 17px;
@@ -1092,5 +1099,5 @@ padding: 0!important;
 	margin-bottom: 10px;
 }
 .performance-logo {
-	margin:auto;
+	margin:29px auto 10px auto;
 }

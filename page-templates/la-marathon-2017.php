@@ -9,17 +9,17 @@ Template Name:  La Marathon 2017
   <section id="la-slider"> <img src="/wp-content/uploads/2016/08/Header-image.jpg" class="img-responsive"> </section>
 </div>
 
-<div class="col-md-8">
+<div class="col-md-8 la-merathon">
 
   <div class="title">
     <h4 class="h4 pull-left">TCA's Band on the Run Needs You!</h4>
   </div>
 
+  <img src="/wp-content/uploads/2016/08/skechers-performance-los-angeles-marathon-logo-e1471502961457.jpg" class="img-responsive performance-logo" alt="Skechers Performance - LOS ANGELES MARATHON" title="Skechers Performance - LOS ANGELES MARATHON">
+
   <blockquote class="bl-color">
     <p> <strong> Let’s go for Gold in this Olympian year and do something SPECIAL – help us raise $45,000 </strong></p>
   </blockquote>
-
-  <img src="/wp-content/uploads/2016/08/skechers-performance-los-angeles-marathon-logo-e1471502961457.jpg" class="img-responsive performance-logo" alt="Skechers Performance - LOS ANGELES MARATHON" title="Skechers Performance - LOS ANGELES MARATHON">
 
   <section id="marathon-info">
 
