@@ -1,0 +1,2469 @@
+/*
+
+
+
+
+
+
+
+ Theme Name:     Teen Cancer America
+
+
+
+
+
+
+
+ Theme URI:      https://teencanceramerica.org
+
+
+
+
+
+
+
+ Description:    It is an Twenty Fifteen child theme
+
+
+
+
+
+
+
+ Author:         Kingtidecreative
+
+
+
+
+
+
+
+ Author URI:     http://www.kingtidecreative.com
+
+
+
+
+
+
+
+ Template:       twentyfifteen
+
+
+
+
+
+
+
+ Version:        1.0
+
+
+
+
+
+
+
+Text Domain:     twenty-fifteen-child
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+	.bx-wrapper {
+
+		display: none;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*@import url("http://www.kingtidestaging.com/clients/teencanceramerica/wp-content/themes/twentyfifteen/style.css");*/
+
+
+
+
+
+
+
+/* Fonts */
+
+
+
+
+
+
+
+@font-face {
+
+
+
+  font-family: 'FuturaStd-Bold';
+
+
+
+  src: url('fonts/FuturaStd-Bold.eot');
+
+
+
+  src: url('fonts/FuturaStd-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+
+
+
+       url('fonts/FuturaStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+
+
+       url('fonts/FuturaStd-Bold.svg') format('svg'); /* Legacy iOS */
+
+
+
+}
+
+
+
+
+
+
+
+@font-face {
+
+
+
+  font-family: 'FuturaStd-Medium';
+
+
+
+  src: url('fonts/FuturaStd-Book.eot');
+
+
+
+  src: url('fonts/FuturaStd-Book.woff') format('woff'), /* Pretty Modern Browsers */
+
+
+
+       url('fonts/FuturaStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+
+
+       url('fonts/FuturaStd-Book.svg') format('svg'); /* Legacy iOS */
+
+
+
+}
+
+
+
+/* =Theme customization starts here
+
+
+
+
+
+
+
+-------------------------------------------------------------- */
+
+
+
+#logo img { max-width: 300px; }
+
+
+
+
+
+/*
+
+#main .container .row { margin-left: -10px !important; margin-right: -10px !important; }
+
+*/
+
+
+
+
+
+body{ background:none; color: #6a6a6a;}
+
+
+
+
+
+
+
+.title, .title h4, .title h1, .gform_title { font-family: FuturaStd-Bold !important; font-size: 18px !important; color: #17406F;}
+
+
+
+
+
+
+
+/* Subheaders */
+
+
+
+.h3, .h5, #dynamic-side-tory ul li h4, #dynamic-side-tory ul li h4 a, .wwa-content h3, #what-we-do-blogs h3 { font-family: FuturaStd-Medium !important; font-size: 14px !important; text-transform: uppercase; }
+
+
+
+
+
+
+
+.foot-logo { display: inline-block; width: 20%; min-width: 225px; margin: 10px 0;}
+
+
+
+
+
+
+
+#donate-now {text-align: center;}
+
+
+
+
+
+
+
+.header-donate:link, .header-donate:active, .header-donate:visited {text-align: center; color: #FFF; background-color: #CE171E; text-decoration: none; float: right; width: 20%; min-width: 225px; margin: 50px 0px 0px; padding: 15px 5px; font-family: "FuturaStd-Bold"; text-transform: uppercase; height: 60px; box-sizing: border-box; text-align: center; vertical-align: middle; cursor: pointer; font-size: 1.5em}
+
+.header-donate:hover {#A01217; color: #FFF; text-decoration: none;}
+
+ 
+
+
+
+
+
+
+
+#top-nav ul li a { color: #17406f; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top-nav ul li a:hover, #top-nav ul li a:active { color: #ce171e; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post-navigation {display: none;} /* --- remove post navigation ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-menu{ width:100%; display:none; list-style:none; position:absolute; background:#fff; height:auto; margin:0; padding:10px; height:auto!important; z-index:9999; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-menu li{ display:inline; list-style:none; text-align:left; float:center; clear:both; line-height:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-menu{ text-align:center; height:40px; line-height:normal; 	  border-bottom:solid 1px #ececec !important;}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+.sub-menu li a{ color:#13406f; text-transform:uppercase; font-size:0.75em; font-weight:700;   display: block; text-align:center; 
+
+
+
+
+
+
+
+    font-size: 0.75em;
+
+
+
+
+
+
+
+    font-weight: 700; line-height:20px;  	 padding:8px 0;
+
+
+
+
+
+
+
+    text-transform: uppercase;
+
+
+
+
+
+
+
+    width: 100% !important; border-width:1px!important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Global ***/
+
+
+
+
+
+
+
+header .h1 {  color: #13406f; font-size: 24px !important; padding-top: 20px !important; }
+
+
+
+
+
+
+
+article .title { border-bottom: 2px solid #999999;  margin-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Hide shop in sidebar ***/
+
+
+
+
+
+
+
+.shop-title, .tca-shop { display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Side Bar ***/
+
+
+
+
+
+
+
+.tca-social ul {   -webkit-margin-before: 0 !important; -webkit-margin-after: 0 !important; -webkit-margin-start: 0 !important; -webkit-margin-end: 0 !important; -webkit-padding-start: 0 !important;}
+
+
+
+
+
+
+
+.sidebar-heading { color: #13406f; border-bottom: 2px solid #999999; padding-bottom: 10px; margin-bottom: 15px; font-family: 'FuturaStd-ExtraBold';}
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+/*** About ***/
+
+
+
+
+
+
+
+.about-cta-text {border-bottom: 2px solid #cecdcc; padding-bottom: 15px;}
+
+
+
+
+
+
+
+.about-cta-text .wp-image-100 { width: 100%; margin-bottom: 15px;}
+
+
+
+
+
+
+
+.about-heading { color: #5c9fd4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**--- Who We Are ----**/
+
+
+
+
+
+
+
+.wwa-container { width: 100%; padding: 0 20px; border-bottom: 1px solid #ccc; margin-bottom: 20px; padding-bottom: 20px; clear: both; overflow: auto; }
+
+
+
+
+
+
+
+.wwa-image { width: 30%; float: left; padding-right: 20px; box-sizing: border-box; }
+
+
+
+
+
+
+
+.wwa-content { width: 70%; min-height: 155px; vertical-align: bottom; float: left; }
+
+
+
+
+
+
+
+.wwa-container a {color: inherit; text-decoration: inherit; }	
+
+
+
+
+
+
+
+.wwa-btn { background: #17406f; padding: 10px 40px; float: right; color: #FFF !important; }
+
+
+
+
+
+
+
+.wwa-btn:hover { color:#337ab7 !important; text-decoration: none; }
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+   /****-------- begin about subcategories --------****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Our Founders***/
+
+
+
+
+
+
+
+   .founders-container div article h3 { margin-bottom: 0px; }
+
+
+
+
+
+
+
+   .founders-container .founder-text { margin-bottom: 15px; color: #13406f; }
+
+
+
+
+
+
+
+   .founders-container img {width: 50%; height: auto; float: left; padding: 0 15px 15px 0; }
+
+
+
+
+
+
+
+   .founders-container article {padding-top: 0px !important;}
+
+
+
+
+
+
+
+   .founders-container article h3 {clear: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Celebrity Ambassadors ***/
+
+
+
+
+
+
+
+   .celebminheight p img {float: left; padding: 6px 15px 0px 0; box-sizing: border-box; width: 40%; height: auto;}
+
+
+
+
+
+
+
+   .celebminheight { margin-bottom: 15px; width: 50%; box-sizing: border-box; padding: 15px; float: left;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-uscelebrity-ambassadors { width: 100%; }
+
+
+
+
+
+
+
+   .celebminheight h3 { color: #5c9fd4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Our Story ***/
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story .banner {width: 100%; height: auto; margin-bottom: 20px;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story .inner-img {width: 50% !important; padding: 15px; box-sizing: border-box; float: left; margin: 15px 0 20px;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story .inner-img:nth-of-type(1) {padding-left: 0;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story .inner-img:nth-of-type(2) {padding-right: 0;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story ul { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 30px 0px 30px 30px;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usour-story ul li { padding: 2px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Board of Directors ***/
+
+
+
+
+
+
+
+   .clientsteencanceramericaabout-usboard-of-directors { width: 100%; }
+
+
+
+
+
+
+
+   .bod-row { width: 100%; clear: both;}
+
+
+
+
+
+
+
+   .bod-block {width: 50%; box-sizing: border-box; float: left; padding: 20px 0;}
+
+
+
+
+
+
+
+   .bod-image {float: left;}
+
+
+
+
+
+
+
+
+   .bod-block:nth-of-type(odd) {padding-right: 15px !important;}
+
+
+
+
+
+
+
+   .bod-block:nth-of-type(even) {padding-left: 15px !important;}
+
+
+
+
+
+
+
+   .bod-block img { padding: 0px 15px 0 0; box-sizing: border-box;}
+
+
+
+
+
+
+
+   .bod-inner h3 {margin-top: -3px !important; clear: none !important; color: #5c9fd4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Regional Ambassadors ***/
+
+
+
+
+
+
+
+   .regamb-container { overflow: visible; width: 100%;}
+
+
+
+
+
+
+
+   .regamb-image { width: 30%; float: left; }
+
+
+
+
+
+
+
+   .regamb-block {}
+
+
+
+
+
+
+
+   .regamb-block h3 {color: #5c9fd4; clear: none !important; }
+
+
+
+
+
+
+
+   .regamb-container img {box-sizing: border-box; padding-right: 15px; width: 100%;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** About -- Young People's Advisory Committee ***/
+
+
+
+
+
+
+
+   .ypac-container { overflow: visible; width: 100%;}
+
+
+
+
+
+
+
+   .ypac-container img {width: 100%;}
+
+
+
+
+
+
+
+   .ypac-image { width: 30%; float: left; }
+
+
+
+
+
+
+
+   .ypac-block h3 {color: #5c9fd4; clear: none !important; }
+
+
+
+
+
+
+
+   .ypac-block h4 {color: #13406f; font-size: 14px; clear: none !important; }
+
+
+
+
+
+
+
+   .ypac-container img {box-sizing: border-box; padding-right: 15px;}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    /*** About -- Sponsors & Partners ***/
+
+
+
+
+
+
+
+   .sp-container { overflow: visible; clear:both; width: 100%;}
+
+
+
+
+
+
+
+   .sp-container img { width: 30%; float: left; margin-top: 20px; box-sizing: border-box; padding-right: 15px; }
+
+
+
+
+
+
+
+   .sp-block { width: 70%; float: left;}
+
+
+
+
+
+
+
+   .sp-block h3 {color: #5c9fd4;}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+   /*** About -- Benefactors ***/
+
+
+
+
+
+
+
+   .ben-row {width: 100%;}
+
+
+
+
+
+
+
+   .ben-container {width: 50%; box-sizing: border-box; float: left;}
+
+
+
+
+
+
+
+   .ben-container:nth-of-type(odd) { padding-right: 15px; }
+
+
+
+
+
+
+
+   .ben-container:nth-of-type(even) {padding-left: 15px}
+
+
+
+
+
+
+
+   .ben-block h3 {color: #5c9fd4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** What we do ***/
+
+
+
+
+
+
+
+.wwd-top-row { margin-top: 55px; }
+
+
+
+
+
+
+
+.wwd-container { width: 50%; padding-right: 15px; box-sizing: border-box; float: left; }
+
+
+
+
+
+
+
+.wwd-cta-img  {width: 100%;}
+
+
+
+
+
+
+
+.wwd-heading { color: #5c9fd4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Get involved ***/
+
+
+
+
+
+
+
+.sponsor_block { width: 100%; float: left; box-sizing: border-box; padding: 15px; }
+
+
+
+
+
+
+
+.sponsor_block img {width: 100%; height: auto; }
+
+
+
+
+
+
+
+.sponsor_block h3 {color: #5c9fd4; }
+
+
+
+
+
+
+
+.sponsor_block a { width: 40%; float: left; }
+
+
+
+
+
+
+
+.sponsor_block_txt h3 { clear: none !important; }
+
+
+
+
+
+
+
+.get-involved-contain-left {width: 48%; display: inline-block; margin-right: 4%; box-sizing: border-box; padding: 10px; vertical-align: top;}
+
+
+
+.get-involved-contain-right {width: 48%; display: inline-block; margin-right: -4px; box-sizing: border-box; padding: 10px; vertical-align: top;}
+
+
+
+
+
+
+
+.get-involved-title {color: #5c9fd4}
+
+
+
+
+
+
+
+   /***------- Begin Get Involved subcategories -------***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** -- Get Involved - Fundraiser ***/
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedfundraiser .gsection { border-bottom: none !important; margin: 0 !important; padding: 30px 0 0 !important;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedfundraiser .gsection h2 {color: #5c9fd4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** -- Get Involved - Volunteer ***/
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedvolunteer .donate_title {color: #5c9fd4; font-size: 20px; font-weight: bold; padding: 10px 0 10px;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedvolunteer input {width: 100%;}
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedvolunteer .fieldwith:nth-of-type(1), .clientsteencanceramericaget-involvedvolunteer .fieldwith:nth-of-type(2),           
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedvolunteer .fieldwith:nth-of-type(3) {float: left; width: 30% !important; margin-right: 3%;}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+   .clientsteencanceramericaget-involvedvolunteer .e-mail {float: left; width: 30%;}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Contact ***/
+
+
+
+
+
+
+
+.iwacontactform input:focus, .iwacontactform textarea:focus {outline: none;}
+
+
+
+
+
+
+
+.iwacontactform ::-moz-placeholder {
+
+
+
+
+
+
+
+  color: #FFF !important;
+
+
+
+
+
+
+
+  opacity: 1;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.iwacontactform :-ms-input-placeholder {
+
+
+
+
+
+
+
+  color: #FFF !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.iwacontactform ::-webkit-input-placeholder {
+
+
+
+
+
+
+
+  color: #FFF !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-top-heading {text-decoration: underline; color: #13406f; font-size: 18px; }
+
+
+
+
+
+
+
+.iwacontactform .donate_title { color: #5c9fd4; padding: 20px 0 10px; font-size: 20px; }
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) { background: #FFF; padding: 15px 0px 25p; }
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:first-of-type, .donate_sec_form div:nth-of-type(2) { float: left;}
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:first-of-type { margin-right: 20px; }
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:first-of-type:before { content:'Name'; display: block; clear: both; padding: 0 0 10px; color: #13406f;}
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:nth-of-type(3) { clear: both; }
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:nth-of-type(3):before { content:'Email'; display: block; clear: both; padding: 10px 0; color: #13406f;}
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(4) div:nth-of-type(2):before { content:'|'; display: block; visibility: hidden; clear: both; padding: 0 0 10px; color: #fff;}
+
+
+
+
+
+
+
+.iwacontactform #first_name, input, textarea,  {padding: 8px 10px; border: 0; background-image: none !important; background: #cecdcc; color: #fff !important;}
+
+
+
+
+
+
+
+#__lpform_first_name_icon {display: none;}
+
+
+
+
+
+
+
+.iwacontactform #last_name {padding: 8px 10px; border: 0; background-image: none !important; background: #cecdcc; color: #fff !important;}
+
+
+
+
+
+
+
+.iwacontactform #email {padding: 8px 10px; border: 0; background-image: none !important; min-width: 40%; background: #cecdcc; color: #fff !important;}
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(6) { background: #FFF; padding: 15px 0px 25px; }
+
+
+
+
+
+
+
+.iwacontactform #comments {width: 100%; resize: none; border: none !important; box-sizing: border-box; padding: 10px; background: #cecdcc; color: #fff !important;}
+
+
+
+
+
+
+
+.iwacontactform textarea:before {content:'Leave a comment below:'; display: block; visibility: hidden; clear: both; padding: 0 0 10px; color: #fff;}
+
+
+
+
+
+
+
+.iwacontactform div:nth-of-type(6) div:before {content:'Leave a comment below:'; display: block; clear: both; padding: 15px 0 10px; color: #17406f;}
+
+
+
+
+
+
+
+.iwacontactform button {color: #fff; background: #ce171e; border: none; float: right; margin-top: 20px; padding: 6px 30px; text-transform: uppercase;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** NEWS & VIEWS ***/
+
+
+
+
+
+
+
+.news-container { width: 100%; border-bottom: 1px solid #CCC; padding: 30px 0 15px; clear: both; overflow: auto;}
+
+
+
+
+
+
+
+.news-image { width: 40%; float: left; }
+
+
+
+
+
+
+
+.news-block { width: 60%; float: left; }
+
+
+
+
+
+
+
+.news-block h3 {margin-top: 0px !important; color: #5c9fd4;}
+
+
+
+
+
+
+
+.news-image img {box-sizing: border-box; padding-right: 15px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** ---------- Begin news & views subcategories --------****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*** Road Rebellion ***/
+
+
+
+
+
+
+
+   .road-main-image {margin-bottom: 20px;}
+
+
+
+
+
+
+
+   .road-main-content {margin-bottom: 40px;}
+
+
+
+
+
+
+
+   .road-sub-title { color: #13406f; border-bottom: 2px solid #6c6c6c;  padding-bottom:10px;}
+
+
+
+
+
+
+
+   .road-carousel { margin-top: 20px; }
+
+
+
+
+
+
+
+   .road-sub {width: 33%; float: left; padding: 0px 20px; box-sizing: border-box;}
+
+
+
+
+
+
+
+   .road-sub h3 {color: #5c9fd4; font-size: 16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Resources ***/
+
+
+
+
+
+
+
+.resource-links {color: inherit;}
+
+
+
+
+
+
+
+.resource-links:hover { text-decoration: none; color: inherit;}
+
+
+
+
+
+
+
+/*#gform_wrapper_12{ display:block!important;}
+
+*/
+
+
+
+.gfield_creditcard_warning{ padding:10px; border:solid 1px #790000!important;}
+
+
+
+.gform_wrapper .gform_footer a.gform_save_link {
+
+    font-size: 1em;
+
+    margin-left: 1em;
+
+    display: inline-block;
+
+    background: #CE171E;
+
+    color: #fff;
+
+    padding: 0;
+
+    margin: 0!important;
+
+    padding: 5px;}
+
+
+
+
+
+/*** Navi Active Page Override ***/
+
+
+
+
+
+
+
+.submenu li.active a, .current_page_item a, .current-menu-parent a { color: #ce171e !important;}
+
+
+
+
+
+/*mob menu*/
+#mob-menu {
+    z-index:9999;
+    position:relative;
+    display:none
+}
+
+#hide-mob {
+    display:block
+}
+
+/*------------------FOR MOBILE MENU STYLE-------*/
+#slide-menu {
+    float:left;
+    position:fixed;
+    width:70%;
+    background:#fff;
+    left:-70%;
+    z-index:99999;
+    height:100%;
+    border:solid 1px #d9d9d9;
+    padding:12px 0 30px
+}
+
+#slide-menu li a {
+    display:block
+}
+
+#close-the-mobnav {
+    -webkit-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+    cursor:pointer;
+    font-size:20px;
+    color:#D02127;
+    display:none;
+    line-height:48px
+}
+
+#slide-menu li {
+    font-family:"FuturaStd-Bold";
+    text-transform:uppercase;
+    background:#D02127;
+    color:#fff;
+    font-size:.8em;
+    border-radius:1px;
+    padding:0 10px;
+    line-height:35px;
+    margin:10px
+}
+
+#slide-menu li:last-child {
+    border-bottom:0
+}
+
+.extra-dropdown {
+    background:#fff;
+    margin-left:14px;
+    margin-right:7px
+}
+
+#slide-menu li a {
+    color:#fff
+}
+
+#mob-expand-button {
+    -webkit-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+    color:#666;
+    font-size:1.1em;
+    cursor:pointer;
+    font-size:20px;
+    line-height:48px;
+    text-align:center;
+    list-style:none
+}
+
+.navbar-default{ }
+
+#slide-menu li.active, #slide-menu .current_page_item , #slide-menu .current-menu-parent{background:#163966;}
+
+#slide-menu .submenu li.active a, #slide-menu .current_page_item a, #slide-menu .current-menu-parent a{ color:#fff!important; }
+
+.extra-dropdown li {
+    background:#fff!important;
+    border-bottom:1px solid #efefef
+}
+
+.extra-dropdown li a {
+    color:#000!important
+}
+
+#wrapper {
+    position:relative;
+    left:0;
+    z-index:999
+}
+
+#mob-nav{ display:none; }
+
+/*#mob menu*/
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+
+	body {
+
+		max-width: 100%;
+
+  		overflow-x: hidden;
+
+	}
+	
+#top-nav{ display:none;}
+#mob-nav{ display:block;}
+#mob-menu {
+    z-index:9999;
+    position:relative;
+    display:block
+}
+
+#slide-menu {
+    display:block
+}
+
+
+
+
+	.textwidget .pull-right {
+
+		padding-right: 50%;
+
+  		margin-right: -117px;
+
+		margin-top: -30px;
+
+	}
+
+	#top-header .row .col-sm-3 {
+
+		padding-left: 50%;
+
+		margin-left: -150px;
+
+	}
+
+	.header-donate {
+
+		display: block;
+
+		float: none;
+
+		margin: 25px 0 25px 50%;
+
+	}
+
+	#top-header .row .col-sm-9 {
+
+		margin-left: -200px;
+
+	}
+
+}
+
+  	
+
+  	
+
+  	
+
+  	
+
+  	.more-link{ display:block; clear:both;}
+
+  	
+
+  	
+
+  	.wwd-container strong, .wwd-top-row strong{color:#23527C;}
+
+
+
+.list-inline{ margin:0;}
+
+
+
+.sidebar-video {
+
+	position: relative;
+
+    width: 100%;
+
+    height: 0;
+
+    padding-bottom: 60%;
+
+}
+
+.sidebar-video-obj {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	#top-header .row .col-sm-9 {
+
+		margin-left: 0 !important;
+
+		text-align: center;
+
+	}
+	
+	.submenu{ height:auto;}
+	
+	.header-donate:link, .header-donate:active, .header-donate:visited, .header-donate:hover {
+
+		float: none !Important;
+
+		margin: 20px auto !important
+
+	}
+
+	.bod-block, .celebminheight {
+
+		width: 100%;
+
+	}
+
+	.celebminheight p img {
+
+		width: auto !important;
+
+	}
+
+}
+
+@media screen and (max-width: 601px) {
+
+	.wwa-content, .news-block {
+
+		width: 100% !important;
+
+		margin-top: 20px;
+
+	}
+	
+	
+	#la-slider .text-block{ font-size:14px!important; bottom:0; width:100%; left:2px; line-height:normal;}
+	
+	.text-block .h1{ font-size:14px!important;}
+
+
+	.wwa-image, .news-image {
+
+		width: auto !important;
+
+		max-width: 100%;
+
+	}
+
+	.get-involved-contain-left, .get-involved-contain-right {
+
+		width: 100%;
+
+	}
+
+	.road-sub {
+
+		width: 100% !important;
+
+	}
+
+	.submenu {
+
+		margin-bottom: 20px;
+
+	}
+
+}
+
+
+
+.address_country select{
+
+  height: 36px;
+
+}
+
+
+
+#input_12_3{
+
+height:  36px;
+
+}
+
+
+
+#input_12_10_2_year{
+
+height: 36px;
+
+}
+
+
+
+#input_12_10_2_month{
+
+height: 36px;
+
+}
+
+#input_12_10_3{
+
+width: 25rem !important;
+
+}
+
+
+
+.gfield_label{
+
+color: rgb(106, 106, 106);
+
+cursor: default;
+
+display: block;
+
+font-family: 'Open Sans', sans-serif;
+
+font-size: 12.25px;
+
+font-weight: bold !important;
+
+color: rgb(106, 106, 106);
+
+padding-bottom: 0px;
+
+font-size: 110%;
+
+}
+
+
+
+#input_12_10_1_label, #input_12_10_5_label, #input_12_11_1_label, #input_12_11_3_label, #input_12_11_4_label, #input_12_11_5_label, #input_12_11_6_label{
+
+display:none;
+
+}
+
+.gform_wrapper .ginput_complex .ginput_cardinfo_left label, .gform_wrapper .ginput_complex .ginput_cardinfo_right label {
+
+display: none;
+
+}
+
+#field_12_10 {position: relative;}
+
+#field_12_10 label{position: absolute;top: 11px;}
+
+#input_12_40{margin-top:0px;}
+
+.gform_card_icon_style1{float:right;padding-right: 10px;}
+
+#field_12_3{
+
+    margin: -5px;
+
+    width: 71rem;
+
+}
+
+.ginput_container{margin-top: 0px;!important}
+
+.ginput_total_12{font-family: 'Open Sans', sans-serif;font-weight: 700;}
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{ padding-left: 10px; padding-right: 10px;}
+
+.row{  margin-left: -10px; margin-right: -10px;}
+
+/*************CUSTOM FORM STYLES*******************/
+
+.wFormContainer, .wForm fieldset {
+	border: 0 none !important;
+	-webkit-border: 0 none !important;
+	box-shadow: none !important;
+	width: auto !important;
+}
+.inputWrapper input, .inputWrapper select, .inputWrapper textarea {
+	background: #cecdcc none repeat scroll 0 0 !important;
+	color: #fff !important;
+	font-size: 12px !important;
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	border: 0 !important;
+	/*width: 100% !important;*/
+	padding: 8px 10px !important;
+}
+.inputWrapper select {
+	-webkit-appearance: none;
+	height: 100%;
+	margin: 0;
+}
+.inputWrapper {
+	width: auto!important;
+}
+.oneField {
+	width: auto!important;
+}
+
+.primaryAction{ float: left!important;}
+
+.wForm legend {
+	padding-bottom: 15px !important;
+}
+.wForm .preField {
+	min-width: auto !important;
+	text-align: left;
+}
+table.columnLayout {
+	width: 100%;
+}
+.wForm .readonly {
+	color: #666 !important;
+	display: inline-block !important;
+	width: 90% !important;
+}
+#tfa_2554-L {
+	color: #666;
+}
+.wForm form .oneChoice {
+	white-space: normal !important;
+}
+.label.postField {
+	color: #666;
+}
+#tfa_0-WRPR .oneChoice input {
+	width: auto !important;
+}
+.label.preField {
+	font-size: 12px !important;
+	  line-height: 18px !important;
+    white-space: pre-wrap !important;
+}
+
+.wForm div.section > .preField{ padding: 30px 0 30px 1px!important;}
+
+@media(max-width:991px) {
+.oneField {
+	width: 100% !important
+}
+.wForm th, .wForm td, .wForm .columnLayout, .wForm tbody, .wForm tr {
+	display: block;
+	width: 100%;
+}
+.matrixLayout th, .matrixLayout td, .matrixLayout tr {
+	display: inline-block;
+	width: 14%;
+	text-align: right;
+}
+.headerRow {
+	width: 100% !important;
+	text-align: right;
+}
+#tfa_2554-L {
+	left: 30px;
+	margin-top: -50px;
+	position: absolute;
+}
+.label.preField {
+	line-height: 19px;
+	white-space: pre-wrap;
+}
+}
+@media(min-width:991px) {
+table.columnLayout td {
+	width: 50%;
+}
+}
+
+#tfa_3216-D{ margin-top:0 !important;}
+
+/*Hospital Page Styling*/
+
+.hospital-quote {
+  color: #17406f;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 40px auto 10px;
+    text-align: center;
+    width: 88%;
+    position: relative;
+}
+
+.hospital-quote > span {
+    color: #646464;
+    display: block;
+    font-weight: 700;
+    padding: 5px 0 10px;
+}
+
+
+.left-quote {
+    background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/04/left-quote.jpg") no-repeat scroll 0 0;
+    height: 23px;
+    left: -35px;
+    position: absolute;
+    top: -10px;
+    width: 23px;
+}
+.right-quote {
+    background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/04/right-quote.jpg") no-repeat scroll 0 0;
+    bottom: 25px;
+    height: 15px;
+    position: absolute;
+    right: -25px;
+    width: 23px;
+}
+.hospital-gallery-wrap {
+    padding: 50px 0 20px;
+}
+
+.sidebar-hospitals li {
+    padding-bottom: 5px;
+}
+.sidebar-hospitals {
+    font-size: 12px;
+    padding: 0 20px;
+}
+.sidebar-hospitals a {
+    color: #646464;
+}
+.sidebar-hospitals a:hover {
+    text-decoration: underline;
+    color: #17406f;
+}
+.unit-content {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600; 
+}
+.unit-content strong {
+    color: #5c9fd4;
+    font-weight: 700;
+}
+
+.unit-pager {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 40px;
+    vertical-align: top;
+}
+.unit-navigation {
+    padding-top: 40px;
+    text-align: center;
+}
+.unit-pager > a {
+    color: #17406f;
+    font-weight: 600;
+}
+.unit-pager > a:hover{
+  text-decoration: underline;
+}
+
+.blog-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.right.carousel-control, .carousel-control.left {
+    background-image: none;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+}
+.carousel-control {
+    color: #17406f;
+    font-size: 50px;
+    margin-top: -55px;
+    top: 50%;
+    -webkit-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+}
+.left.carousel-control {
+     background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/04/hos-left-arrow.png") no-repeat scroll 0 0;
+    height: 43px;
+    left: -40px;
+    width: 22px;
+}
+.right.carousel-control {
+     background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/04/hos-right-arrow.png") no-repeat scroll 0 0;
+    height: 43px;
+    right: -40px;
+    width: 22px;
+}
+
+.blog-carousel-liner h4 a {
+    color: #5c9fd4;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog-carousel-liner > h4 {
+    padding-bottom: 15px;
+}
+.hospital-excerpt {
+    margin-bottom: 0;
+}
+.hospital-rm {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+.mapplic-map-image path {
+    fill: #477cb0;
+    stroke: #fff;
+}
+.mapplic-map-image svg {
+    background: #fff none repeat scroll 0 0;
+}
+
+.mapplic-pin.circular {
+    background-color: #ee1c25 !important;
+    border: 6px solid #0d3b6c;
+    border-radius: 50px !important;
+    box-shadow: 0 0 0 8px #fff inset !important;
+    -webkit-border-radius: 50px !important;
+    -webkit-box-shadow: 0 0 0 8px #fff inset !important;
+    height: 40px !important;
+    margin: -18px !important;
+    opacity: 1 !important;
+    width: 40px !important;
+}
+
+.mapplic-pin.yellow {
+    background-image: url("/wp-content/uploads/2016/04/star.png") !important;
+    background-size: contain;
+    height: 31px;
+    margin: -25px -17px 0;
+    width: 35px;
+    background-color: transparent !important;
+}
+.unit-content img {
+     float: left;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+.hospital-img img {
+    width: 100%;
+}
+#Layer_2 {
+    display: none;
+}
+
+@media(max-width: 768px){
+  .unit-content img {
+    width: 295px;
+}
+.left.carousel-control { left: -15px; }
+.right.carousel-control {right: -15px; }
+.mapplic-container, .mapplic-element {
+    height: 210px !important;
+}
+}

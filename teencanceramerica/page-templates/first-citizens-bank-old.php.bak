@@ -1,0 +1,199 @@
+<?PHP //Custom Page Templates
+/*
+Template Name:  First Citizens Bank
+*/
+?>
+
+
+<?php get_header(); ?>
+
+<div class="col-md-12">
+
+
+
+<section id="la-slider" class="first-citizen">
+
+
+
+<img src="http://teencanceramerica.org/wp-content/uploads/2015/11/new-banner.jpg" class="img-responsive">
+
+
+
+
+
+</section>
+
+</div>
+
+
+
+
+
+<div class="col-md-8">
+
+
+<div class="title">
+      <h4 class="h4 pull-left">FIRST CITIZENS BANK SUPPORTS TEEN CANCER AMERICA </h4>
+    </div>
+
+
+
+
+    <blockquote class="text-format">
+
+      <p>Teenagers fighting cancer don’t belong in pediatric wards or adult care units. They deserve treatment 
+that’s in sync with their lives. That’s why First Citizens bank is teaming up with Teen Cancer America. 
+With your help we’ll raise awareness and funding to open the door to better cancer care for 
+young Americans.</p>
+
+    <em>"</em><p class="qutes">We are so proud to announce our partnership with First Citizens Bank. This relationship will be a game changer for Teen Cancer America and the essential work we do to create programs and facilities for young people with cancer. The First Citizens Bank team are extraordinary and a dream to work with.<br> 
+This initiative will help us improve outcomes for young people and their chances of survival.     
+                              <span>"</span> </p>
+
+<p class="author text-right" style="font-style:italic; color:#727272;">- Simon Davies, Executive Director</p>
+ </blockquote>
+
+
+
+
+
+ <section id="personal-info">
+
+
+<div class="title">
+      <h4 class="h4 pull-left" style="border:0; padding:0;">Donate</h4>
+  </div>
+
+
+<div id="la-form">
+
+
+
+  <?php echo do_shortcode('[formassembly formid=395266]'); ?>
+
+
+<!--
+
+<form class="form-inline hidden">
+
+
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="First Name">
+  </div>
+
+
+
+
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name">
+  </div>
+
+
+
+
+  <div class="form-group">
+  
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  </div>
+
+
+
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="phone">
+  </div>
+
+
+
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="City">
+  </div>
+
+
+
+
+
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="State">
+  </div>
+
+
+
+
+  <div class="form-group">
+  
+<label>I want to participate in the...</label>
+<br>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+    26 mile Marathon
+  </label>
+</div>
+
+<br>
+
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+   13 mile Charity Relay 
+  </label>
+</div>
+<br>
+
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+  5k
+  </label>
+</div>
+
+<br>
+
+  </div>
+
+
+
+
+  <div class="form-group">
+    <br>
+  <label>Why do you want to run for us?</label><br>
+   <textarea class="form-control" rows="3" placeholder="Comments"></textarea>
+
+
+  </div>
+
+
+
+
+<br>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+-->
+
+
+</div>
+
+
+ </section>
+
+
+</div>
+
+
+
+
+  <?php get_sidebar('home'); ?>
+
+
+
+
+
+
+<!--#end-->
+<?php get_footer(); ?>

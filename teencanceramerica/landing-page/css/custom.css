@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body.home {
+	background:url(../images/strip-bg.png) fixed;/*overflow:hidden;*/
+}
+header#cover {
+	background:url(../images/squire-graphic.png);
+}
+#nav-container {
+	position:fixed!important;
+	right:0;
+	
+	width:100%;
+	top:0;
+	 font-family: 'FuturaStd-Light';
+	 z-index:99999;
+}
+.tca-fullPage {
+	background: url(../images/slider/washington-wizards/1000/bg.jpg) no-repeat center center ;
+	
+	background-size:cover!important;
+	background-position:center center!important;
+	margin: 0 auto;
+	transition: all 1s;
+	padding: 0;
+}
+#part1 {
+	background:url(../images/section-1.jpg);
+}
+#part2 {
+	background:url(../images/section-2.jpg);
+}
+#part3 {
+	background:url(../images/section-3.jpg);
+}
+#part4 {
+	background:url(../images/section-4.jpg);
+}
+#part5 {
+	background:url(../images/section-5.jpg);
+}
+
+#menu-pos{ z-index:99999!important;  }
+
+#main-nav {
+	vertical-align:middle!important;
+	display:table-cell!important;
+	float:none!important;
+	
+}
+a:active, a:hover, a:focus {
+	outline:0!important;
+	outline:none!important;
+	text-decoration:none;
+}
+#main-nav li {
+	clear:both;
+	color:#fff;
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+#main-nav li a {
+	display:block;
+	background:#17406f;
+	color:#fff;
+	height:70px;
+	width:145px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+	border-bottom:solid 1px #36506e;
+	border-top:solid 1px #102e50;
+	text-transform:uppercase;
+	transition:all 0.30s;
+}
+#main-nav li a:hover, #main-nav li a.active {
+	text-decoration:none;
+	background:#fff;
+	color:#17406f;
+	border-color:#ff6766;
+}
+#footer {
+	position:fixed!important;
+	bottom:0!important;
+	z-index:999999;
+	left:0;
+	width:100%;
+}
+#footer ul {
+	background:rgba(0, 0, 0, 0.5);
+	width:100%;
+	height:70px;
+	margin:0;
+	padding:0;
+	text-align:center;
+  font-family: 'FuturaStd-Condensed';
+  font-weight:normal;
+  font-size:1.4em;
+}
+#footer ul li a {
+	transition:all 0.30s;
+	color:#fff;
+	vertical-align:middle;
+	display:inline-block;
+	margin:25px 0;
+	text-transform:uppercase;
+	padding:0 15px;
+}
+#footer ul li a:hover {
+	color:#ff6766;
+}
+
+#video-wrapper, .container{ position:relative; max-width:1440px!important; width:100%!important; padding:0;}
+
+#video-wrapper{ z-index:0;}
+video#bg-video {
+	
+	z-index:-1;
+	left:0; right:0; margin:auto;
+	max-width:1440px!important;  position:fixed!important;
+background: url(images/cover-img.jpg) no-repeat center center fixed;
+	
+background-size: cover; 
+
+
+}
+
+#video-view{ display:table; width:100%; color:#fff; font-size:1em;	}
+
+#video-view h1{ font-size:4em;}
+#wrapper {
+	width:100%;
+	
+	z-index:2;
+	
+	
+}
+.line {
+	height:5px;
+	background:#17406f;
+	width:100%;
+	clear:both;
+	display:none;
+	margin:20px 0;
+}
+
+
+#scroll {
+	
+	
+	position:absolute;
+	display:none;
+	height:50px;
+	line-height:50px;
+	background:rgba(255, 255, 255, 0.5);
+	color:#fff;
+	width:100%;
+	bottom:-1px;
+	text-align:center;
+	cursor:pointer;
+	text-transform:uppercase;
+	font-weight:bolder;
+}
+
+
+.tca-fullPage{ text-align:center; vertical-align:middle; display:table; width:100%; position:relative;}
+
+.vericle-middle{ vertical-align:middle; display:table-cell;}
+
+h1, h2, h3, h4, h5, h6{ font-family: 'FuturaStd-Bold'!important; text-transform:uppercase;}
+
+h1{ margin-top:0;}
+
+header#cover{ color:#17406f; position:relative;}
+
+header#cover p{ margin:20px 0 30px 0;  font-family: 'FuturaStd-Light'; font-size:1.1em; }
+
+.button{ transition:all 0.30s; min-width:230px; height:50px; text-transform:uppercase; z-index:999999; line-height:50px; position:relative; display:inline-block; font-size:1.5em; font-family: 'FuturaStd-Bold'!important; text-transform:uppercase;  }
+
+.black-bu{ color:#fff; background:rgba(0,0,0,0.6);}
+
+.red-bu{color:#fff; background:rgba(255,5,0,0.6);}
+
+.black-bu:hover{background:rgba(0,0,0,1); color:rgba(255,5,0,1)!important; }
+
+.red-bu:hover{background:rgba(255,5,0,1); color:rgba(0,0,0,1)!important;}
+
+.play { font-size:1em;   font-family: 'Futura-t-book'!important;  position:relative; }
+
+.play a{ font-size:1em; font-weight:bold; color:#17406f; 	transition:all 0.30s;}
+
+.play a:hover{color:#fff;}
+.sub-section { color:#fff; margin:20px 0;  font-family: 'FuturaStd-Light'; font-size:1.1em;}
+
+p{ margin:20px 0 30px 0; }
+
+.sub-section .black-bu{ color:#fff; background:rgba(255,255,255, 0.3); border:solid 2px rgba(255,255,255, 0.8); text-transform:uppercase; }
+
+
+.sub-section .red-bu{ border:solid 2px rgba(255,5,0, 0.8);}
+.sub-section h2{   font-family: 'FuturaStd-Light'!important; font-style:italic;}
+#video-subtext p {font-family: 'FuturaStd-Light'; }
+
