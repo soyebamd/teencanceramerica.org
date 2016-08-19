@@ -752,21 +752,14 @@ Template Name:  La Marathon 2017
 <div class="col-md-4" id="home-sidebar">
 
   <div class="title">
-    <h4 class="h4 pull-left">A Call To Action</h4>
+    <h4 class="pull-left call-to-action-title">A Call To Action</h4>
   </div>
-
   <br>
-
-  <article id="sidebar-content"> <img src="/wp-content/uploads/2016/08/T-Shirt.jpg" class="img-responsive"> <br>
-    <p><strong>Any Questions? Please contact Geraldine Lee at <a href="mailto:bandontherun@gmail.com">Bandontherun@teencanceramerica.org</a></strong></p>
-    <p>In order to complete your registration, please follow the following steps:</p>
-    <p><strong>Step 1</strong> - Fill out the form on this page to let us know that you are planning to be part of our team</p>
-    <p><strong>Step 2</strong> - Wait for your invitation code with registration instructions and important information about fundraising, training and the team. </p>
-    <p><strong>Step 3 </strong>- Set up your Fundraising Page at      EveryDay Hero and start Fundraising</p>
-    <p><strong>Step 4 </strong>- Start training and receive our training information.</p>
-    <p><strong>Step 5 </strong>- Stay connected - join our Band on the Run FaceBook to receive regular notices</p>
-    <p><strong>Step 6 </strong>- Have FUN<br />
-    </p>
+  <article id="sidebar-content">
+    <img src="/wp-content/uploads/2016/08/T-Shirt.jpg" class="img-responsive"> 
+    <br>
+    <p>Rans Tenorio of First Citizen's Bank running for TCA with Angel's wings and Hearts on his back representing people his donors wanted to be remembered. The wings are for people who are no longer with us and have passed from cancer and the hearts are for those going through cancer.</p>
+    <p><strong>Ran's raised over $5,000!</strong></p>  
   </article>
 
 </div>

@@ -1036,6 +1036,7 @@ padding: 0!important;
 	color: #CE171E;
 	margin-bottom: 15px !important;
 }
+
 #marathon-info .how-to-run {
 	margin-left: 26px;
 	border-bottom: solid 2px #999;
@@ -1099,5 +1100,10 @@ padding: 0!important;
 	margin-bottom: 10px;
 }
 .performance-logo {
-	margin:29px auto 10px auto;
+	margin:21px auto 10px auto;
+	max-width: 298px;
+}
+.title h4.call-to-action-title{
+	font-size: 34px !important;
+	margin-bottom: 15px !important;
 }

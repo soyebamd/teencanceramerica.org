@@ -73,14 +73,14 @@
               </nav>
 
             </ul>
-            <?php if(is_page('teen-stories') || is_page('road-rebellion') || is_page('news-views') ||  is_page('la-marathon-2016')){ ?>
+            <?php if(is_page('teen-stories') || is_page('road-rebellion') || is_page('news-views') ||  is_page('la-marathon-2017')){ ?>
             <ul id="no-news-event" class="submenu list-inline list-unstyled">
               <?php } else { ?>
 
               <ul id="news-event" class="submenu list-inline list-unstyled">
 
                <?php }  ?>                <li <?php if(is_page('road-rebellion')){ echo "class='active'";} ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>road-rebellion">Road-Rebellion</a></li>
-               <li <?php if(is_page('teen-stories')){ echo "class='active'";} ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>in-the-news/teen-stories"> Teen &amp; Young Adult Stories</a></li>               <li <?php if(is_page('la-marathon-2016')){ echo "class='active'";} ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>/la-marathon-2016"> La Marathon</a></li>
+               <li <?php if(is_page('teen-stories')){ echo "class='active'";} ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>in-the-news/teen-stories"> Teen &amp; Young Adult Stories</a></li>               <li <?php if(is_page('la-marathon-2017')){ echo "class='active'";} ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>/la-marathon-2017"> La Marathon</a></li>
              </ul>           </header>
 
            <?php
